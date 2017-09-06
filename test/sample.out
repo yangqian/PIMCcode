@@ -1,0 +1,60 @@
+Starting the simulation from scratch, only calculating scalar observables.
+Random number seed 12345678; should be changed for an actual simulation.
+----------------------------------------------------------------
+Total processor used:4
+EPOCH TIME:12345678
+HUMAN TIME:Sat May 23 14:21:18 1970
+
+Total particle number:2
+Choosing dilation move with Line.
+No saved configuration found.
+Estimated time for sampling: 0.412770
+Initial condition: beta=                0.5
+N=4,LEVYL=2,BlockN=80,Skipstep=1,NofaBlock=400,Dimension=3
+Estimated total time: 0.600240 Finish at Tue Sep  5 19:46:08 2017
+Permutestatusaveg:400.000000,error:0.000000
+b2 is   0.943266667469805 0.00596827713560568 0.00596827713560568
+VirialEnergy is    11.7788038485903   0.449104242017572   0.449104242017572
+ThermoEnergy is    11.8001650026136    0.17433972374893    0.17433972374893
+Wiggle move acceptance ratio=0.972992
+Dilate move acceptance ratio=0.566940, dilationwidth=1.700000
+Wholepath move acceptance ratio=-nan
+Singleslice move acceptance ratio=0.591234
+Finish time: Tue Sep  5 19:46:08 2017
+----------------------------------------------------------------
+Starting a longer simulation with saved configuration.
+Random number seed 12345678.
+----------------------------------------------------------------
+Total processor used:4
+EPOCH TIME:12345678
+HUMAN TIME:Sat May 23 14:21:18 1970
+
+Total particle number:2
+Choosing dilation move with Line.
+There is 1 saved configuration.
+fpath.save contains 4
+Initial condition: beta=                0.5
+N=4,LEVYL=2,BlockN=80,Skipstep=1,NofaBlock=1000,Dimension=3
+Estimated total time: 1.404880 Finish at Tue Sep  5 19:46:09 2017
+Permutestatusaveg:1000.000000,error:0.000000
+b2 is   0.939100888522744 0.00641068683369112 0.00641068683369112
+VirialEnergy is    11.9218602976735   0.290805851456627   0.290805851456627
+ThermoEnergy is     11.918871879488   0.146240442942521   0.146240442942521
+Wiggle move acceptance ratio=0.970891
+Dilate move acceptance ratio=0.566172, dilationwidth=1.700000
+Wholepath move acceptance ratio=-nan
+Singleslice move acceptance ratio=0.590309
+Finish time: Tue Sep  5 19:46:10 2017
+----------------------------------------------------------------
+run cat col1.dat|../b4 to get a detailed analysis of the second estimator
+list the mean, error, error contribution by sign, and statistics
+----------------------------------------------------------------
+11.92186029767354 0.2212366774136765 0 0.2212366774136765
+----------------------------------------------------------------
+scaled single particle distribution stored as fwave1.dat
+header reads x average std 0 1
+means position, histogram average, standard deviation,
+distribution for particle 0, distribution for particle 1
+unscaled single particle distribution stored as fwave1d.dat
+Change corresponding code in calc.c to adjust correlation choice.
+Change corresponding code in initialize.c to adjust estimator choice.

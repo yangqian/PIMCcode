@@ -1,0 +1,40 @@
+Total processor used:6
+EPOCH TIME:1504222428
+HUMAN TIME:Thu Aug 31 16:33:48 2017
+
+Total particle number:3
+Choosing dilation move with Line.
+No saved configuration found.
+Estimated time for sampling: 2.792350
+Initial condition: beta=                0.5
+N=8,LEVYL=2,BlockN=80,Skipstep=48,NofaBlock=100,Dimension=3
+Estimated total time: 13.411920 Finish at Thu Aug 31 16:34:02 2017
+Permutestatusaveg:98.700000,error:0.658818
+b2 is   0.859383488306957  0.0146530894656741  0.0134835948984064
+VirialEnergy is    16.3072226905414    1.17804989228019    1.17301032359702
+ThermoEnergy is    17.1103693425363   0.700365699554838   0.690990564384432
+Wiggle move acceptance ratio=0.500164
+Dilate move acceptance ratio=0.508138, dilationwidth=1.420000
+Wholepath move acceptance ratio=0.511393
+Singleslice move acceptance ratio=0.501940
+Finish time: Thu Aug 31 16:33:52 2017
+Total processor used:6
+EPOCH TIME:1504222432
+HUMAN TIME:Thu Aug 31 16:33:52 2017
+
+Total particle number:3
+Choosing dilation move with Line.
+There is 1 saved configuration.
+fpath.save contains 6
+Initial condition: beta=                0.5
+N=8,LEVYL=2,BlockN=80,Skipstep=48,NofaBlock=1000,Dimension=3
+Estimated total time: 33.575440 Finish at Thu Aug 31 16:34:25 2017
+Permutestatusaveg:988.216667,error:3.078025
+b2 is   0.887382445878056  0.0072556476280565 0.00670857529905533
+VirialEnergy is    17.6483454041473    0.42305511489532    0.41946865745332
+ThermoEnergy is    17.7199527017838   0.271701803302306   0.266036884504069
+Wiggle move acceptance ratio=0.502057
+Dilate move acceptance ratio=0.506298, dilationwidth=1.420000
+Wholepath move acceptance ratio=0.505308
+Singleslice move acceptance ratio=0.504224
+Finish time: Thu Aug 31 16:34:25 2017

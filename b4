@@ -1,0 +1,2 @@
+#!/bin/sh
+awk '{e=0;for(i=2;i<=NF;i++){e+=$i};printf "%d %.16g %.16g\n", NR,$1,e/(NF-1)}'| awk '{p+=$2;e[NR]=$3;p2+=$2*$2}END{p/=NR;for(i=1;i<=NR;i++){a+=e[i]/p;a2+=(e[i]/p)^2};p2/=NR;a/=NR;a2/=NR;printf "%.16g %.16g %.16g %.16g\n", a,sqrt((a2-a*a)/(NR-1)),sqrt((p2-p*p)/(NR-1))*a/p,sqrt((a2-a*a+(p2-p*p)/p/p*a*a)/(NR-1))}'
