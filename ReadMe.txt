@@ -17,7 +17,7 @@ Yangqian Yan and D. Blume.
 Related technical details can be found in the following
 publications:
 
-Ref.1 Manuscript currently under review with the Journal of Physics B,
+Ref.1 Journal of Physics B 50, 223001 (2017)
 "Path integral Monte Carlo ground state
 approach: Formalism, implementation, and applications" by
 Yangqian Yan and D. Blume.
